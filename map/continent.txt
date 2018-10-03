@@ -1,0 +1,27 @@
+europe = {
+	1 
+}
+
+asia = {
+	
+}
+
+africa = {
+	
+}
+
+north_america = {
+	
+}
+
+south_america = {
+	
+}
+
+oceania = {
+	
+}
+
+# Used for RNW
+new_world = {
+}

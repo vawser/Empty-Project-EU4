@@ -1,0 +1,223 @@
+#------------------------------------------------------------
+# Monarchy
+#------------------------------------------------------------
+monarchy = {
+    basic_reform = monarchy_mechanic
+    
+    color = { 86 125 188 }
+    
+	reform_levels = {
+		government_form = {
+            reforms = {
+                noble_house_reform
+                royal_house_reform
+                qartheen_city_reform
+                yiti_domain_reform
+                valyria_city_reform
+                meereen_city_reform
+                yunkai_city_reform
+                astapor_city_reform
+                ghis_city_reform
+                stepstone_clan_reform
+            }
+        }
+	}
+
+	legacy_government = {
+        noble_house_legacy
+        royal_house_legacy
+        qartheen_city_legacy
+        yiti_domain_legacy
+        valyria_city_legacy
+        meereen_city_legacy
+        yunkai_city_legacy
+        astapor_city_legacy
+        ghis_city_legacy
+        stepstone_clan_legacy
+	}
+    
+    exclusive_reforms = {
+        noble_house_reform
+        royal_house_reform
+        qartheen_city_reform
+        yiti_domain_reform
+        valyria_city_reform
+        meereen_city_reform
+        yunkai_city_reform
+        astapor_city_reform
+        ghis_city_reform
+        stepstone_clan_reform
+    }
+}
+
+
+#------------------------------------------------------------
+# Republic
+#------------------------------------------------------------
+republic = {
+    basic_reform = republic_mechanic
+    
+    color = { 86 188 91 }
+    
+	reform_levels = {
+		government_form = {
+            reforms = {
+                tyrosh_city_reform
+                myr_city_reform
+                lys_city_reform
+                volantis_city_reform
+                pentos_city_reform
+                braavos_city_reform
+                lorath_city_reform
+                qohor_city_reform
+                saath_city_reform
+                trader_city_reform
+                nights_watch_reform
+                andal_city_reform
+                norvos_city_reform
+            }
+        }
+	}
+
+	legacy_government = {
+		tyrosh_city_legacy
+        myr_city_legacy
+        lys_city_legacy
+        volantis_city_legacy
+        pentos_city_legacy
+        braavos_city_legacy
+        lorath_city_legacy
+        qohor_city_legacy
+        saath_city_legacy
+        trader_city_legacy
+        nights_watch_legacy
+	}
+    
+    exclusive_reforms = {
+        tyrosh_city_reform
+        myr_city_reform
+        lys_city_reform
+        volantis_city_reform
+        pentos_city_reform
+        braavos_city_reform
+        lorath_city_reform
+        qohor_city_reform
+        saath_city_reform
+        trader_city_reform
+        nights_watch_reform
+        andal_city_reform
+        norvos_city_reform
+    }
+}
+
+#------------------------------------------------------------
+# Theocracy
+#------------------------------------------------------------
+theocracy = {
+    basic_reform = theocracy_mechanic
+    
+    color = { 173 188 174 }
+    
+	reform_levels = {
+		government_form = {
+            reforms = {
+                asshai_cult_reform
+                bloodless_cult_reform
+                white_walker_cult_reform
+            }
+        }
+	}
+
+	legacy_government = {
+		andal_city_legacy
+        norvos_city_legacy
+        asshai_cult_legacy
+        bloodless_cult_legacy
+        white_walker_cult_legacy
+        
+	}
+    
+    exclusive_reforms = {
+        asshai_cult_reform
+        bloodless_cult_reform
+        white_walker_cult_reform
+    }
+}
+
+#------------------------------------------------------------
+# Tribal
+#------------------------------------------------------------
+tribal = {
+    basic_reform = tribal_mechanic
+    
+    color = { 163 155 86 }
+    
+	reform_levels = {
+		government_form = {
+            reforms = {
+                wildling_clan_reform
+                lhazar_clan_reform
+                ibben_clan_reform
+                omber_clan_reform
+                faros_clan_reform
+                naath_clan_reform
+                hyrkoon_clan_reform
+                nefer_clan_reform
+                summer_islander_clan_reform
+            }
+        }
+	}
+
+	legacy_government = {
+		wildling_clan_legacy
+        lhazar_clan_legacy
+        ibben_clan_legacy
+        omber_clan_legacy
+        faros_clan_legacy
+        naath_clan_legacy
+        hyrkoon_clan_legacy
+        naath_clan_legacy
+        nefer_clan_legacy
+        summer_islander_clan_legacy
+	}
+    
+    exclusive_reforms = {
+        wildling_clan_reform
+        lhazar_clan_reform
+        ibben_clan_reform
+        omber_clan_reform
+        faros_clan_reform
+        naath_clan_reform
+        hyrkoon_clan_reform
+        nefer_clan_reform
+        summer_islander_clan_reform
+    }
+}
+
+#------------------------------------------------------------
+# Nomadic
+#------------------------------------------------------------
+nomadic = {
+    basic_reform = nomadic_mechanic
+    
+    color = { 111 142 89 }
+    
+	reform_levels = {
+		government_form = {
+            reforms = {
+                khalasar_reform
+                jhattar_reform
+            }
+        }
+	}
+
+	legacy_government = {
+        khalasar_legacy
+        jhattar_legacy
+	}
+    
+    exclusive_reforms = {
+        khalasar_reform
+        jhattar_reform
+    }
+}

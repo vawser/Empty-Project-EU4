@@ -1,0 +1,451 @@
+#------------------------------------------------------------
+# Monarchy
+#------------------------------------------------------------
+monarchy_mechanic = {
+    basic_reform = yes
+    
+    valid_for_nation_designer = no
+    
+	monarchy = yes
+    
+	heir = yes
+	queen = yes
+}
+
+noble_house_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = noble_house_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+royal_house_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = royal_house_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    fixed_rank = 3
+}
+
+qartheen_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = qartheen_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+yiti_domain_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = yiti_domain_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+valyria_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = valyria_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+meereen_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = meereen_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+yunkai_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = yunkai_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+astapor_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = astapor_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+ghis_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = ghis_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+stepstone_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = stepstone_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+#------------------------------------------------------------
+# Republic
+#------------------------------------------------------------
+republic_mechanic = {
+    basic_reform = yes
+    
+    valid_for_nation_designer = no
+    
+	republic = yes
+    
+	heir = no
+	queen = no
+}
+
+tyrosh_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = tyrosh_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+myr_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = myr_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+lys_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = lys_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+volantis_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = volantis_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    duration = 3
+}
+
+pentos_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = pentos_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+braavos_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = braavos_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+lorath_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = lorath_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+qohor_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = qohor_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+saath_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = saath_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+trader_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = trader_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+nights_watch_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = nights_watch_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+andal_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = andal_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+norvos_city_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = norvos_city_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+#------------------------------------------------------------
+# Theocracy
+#------------------------------------------------------------
+theocracy_mechanic = {
+    basic_reform = yes
+    
+    valid_for_nation_designer = no
+    
+	religion = yes
+    
+	heir = yes
+	queen = no
+    
+    different_religion_acceptance = -50
+    different_religion_group_acceptance = -50
+}
+
+asshai_cult_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = asshai_cult_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+bloodless_cult_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = bloodless_cult_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+white_walker_cult_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = white_walker_cult_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+#------------------------------------------------------------
+# Tribal
+#------------------------------------------------------------
+tribal_mechanic = {
+    basic_reform = yes
+    
+    valid_for_nation_designer = no
+    
+	monarchy = yes
+    tribal = yes
+    
+	heir = yes
+	queen = yes
+    
+    native_mechanic = yes
+}
+
+wildling_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = wildling_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+lhazar_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = lhazar_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+ibben_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = ibben_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+omber_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = omber_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+faros_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = faros_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+naath_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = naath_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+hyrkoon_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = hyrkoon_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+nefer_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = nefer_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+summer_islander_clan_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = summer_islander_clan_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+#------------------------------------------------------------
+# Nomadic
+#------------------------------------------------------------
+nomadic_mechanic = {
+    basic_reform = yes
+    
+    valid_for_nation_designer = no
+    
+    nomad = yes
+    
+	heir = yes
+	queen = yes
+    
+    allow_migration = yes
+}
+
+khalasar_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = khalasar_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+
+jhattar_reform = {
+	icon = "castle"
+    
+    allow_normal_conversion = yes
+    legacy_equivalent = jhattar_legacy
+    
+    valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
