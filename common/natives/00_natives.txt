@@ -1,11 +1,12 @@
-natives_american_inuit = {
-	graphical_culture = inuitgfx
+natives_debug = {
+	graphical_culture = westerngfx
 	color = { 0 255  255 }
-	icon = 4
+	icon = 1
 	
-	unit = native_indian_archer
+	unit = debug_infantry
 	
 	provinces = {
 
 	}
 }
+

@@ -1,0 +1,19 @@
+debug_age = {
+	start = 1
+	
+	can_start = {
+		always = yes
+	}
+	
+	religious_conflicts = yes
+	
+
+	objectives = {
+		
+	}		
+	
+	abilities = {
+		
+	}
+}
+

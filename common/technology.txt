@@ -1,0 +1,15 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+groups = {
+	debug_tech_group = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

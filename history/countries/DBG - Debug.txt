@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = debug_government_reform
+
+technology_group = debug_tech_group
+
+religion = debug_religion
+primary_culture = debug_culture

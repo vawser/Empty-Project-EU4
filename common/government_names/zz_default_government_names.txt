@@ -44,10 +44,10 @@ default_monarchy = {
 		3 = HEIR
 	}
 
-	government_reform = monarchy_mechanic
+	government_reform = debug_government_mechanic
 
 	trigger = {
-		has_reform = monarchy_mechanic
+		has_reform = debug_government_mechanic
 	}
 }
 

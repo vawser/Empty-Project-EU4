@@ -1,0 +1,6 @@
+insult_default = {
+	trigger = {
+		always = yes
+	}
+}
+

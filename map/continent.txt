@@ -1,25 +1,9 @@
-europe = {
-	1 
+world = {
+	1 2 3
 }
 
-asia = {
-	
-}
+island_check_provinces = {
 
-africa = {
-	
-}
-
-north_america = {
-	
-}
-
-south_america = {
-	
-}
-
-oceania = {
-	
 }
 
 # Used for RNW

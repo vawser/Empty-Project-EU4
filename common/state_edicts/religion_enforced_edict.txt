@@ -1,0 +1,24 @@
+edict_religion_enforced = {
+	potential = {
+        always = yes
+	}
+	
+	allow = {
+		custom_trigger_tooltip = {
+			tooltip =edict_religion_enforced_tooltip
+			has_country_flag = religion_enforced_edict
+		}
+        always = yes
+	}
+	
+	modifier = {
+		religious_conversion_resistance = 0.90
+	}
+	
+	color = {  116 198 240  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	}
+}

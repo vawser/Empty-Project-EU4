@@ -1,0 +1,27 @@
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+debug_religion_group = {
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+
+	debug_religion = {
+		color = { 204 204 0 }
+		icon = 1
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			advisor_pool = 1
+		}   
+    }
+}
+
