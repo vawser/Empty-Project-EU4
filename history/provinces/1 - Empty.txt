@@ -1,14 +1,14 @@
 is_city = yes
 
-add_core = A01
-owner = A01
-controller = A01
+add_core = DBG
+owner = DBG
+controller = DBG
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = test_culture
-religion = test_religion
+culture = debug_culture
+religion = debug_religion
 
-trade_goods = grain
+trade_goods = unknown

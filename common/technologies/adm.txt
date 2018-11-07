@@ -39,9 +39,7 @@ technology = { #Medieval Administration
 technology = { #Temples
 	# Tech 4
 	year = 1453
-	# Temple
-	temple = yes
-	
+
 }
 
 technology = { #National Ideas

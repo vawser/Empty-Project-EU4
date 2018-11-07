@@ -1,4 +1,4 @@
-government = monarchy
+government = debug_government
 add_government_reform = debug_government_reform
 
 technology_group = debug_tech_group
