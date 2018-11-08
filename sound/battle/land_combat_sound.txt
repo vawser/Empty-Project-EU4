@@ -1,11 +1,5 @@
 infantry_soldiers = combat_troops_effect
-
-tag_specific_effects = {
-	cavalry = {
-		default_effect = combat_cavalry_effect
-	}
-}
-
+cavalry = combat_cavalry_effect
 artillery = combat_artillery_effect
 
 tech_level_effects = {

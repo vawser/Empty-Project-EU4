@@ -1,0 +1,14 @@
+# Notes
+- 1321 pixels width at 2048 height is safe
+- 850 pixels height at 5632 width is safe
+- Game is more tolerant of wide provinces than tall for an unknown reason. 
+- Province pixel area isn't the limiter, as wide provinces can exceed tall province total areas.
+- 3 provinces is minimum: 5632 x 494, 749, 805
+
+
+# Exceptions (At address)
+0x00A12313
+- CTD due to province size
+
+0x00A1473E
+- 

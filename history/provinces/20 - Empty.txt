@@ -1,0 +1,14 @@
+is_city = yes
+
+add_core = DBG
+owner = DBG
+controller = DBG
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = debug_culture
+religion = debug_religion
+
+trade_goods = unknown
