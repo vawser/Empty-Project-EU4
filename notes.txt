@@ -4,11 +4,16 @@
 - Game is more tolerant of wide provinces than tall for an unknown reason. 
 - Province pixel area isn't the limiter, as wide provinces can exceed tall province total areas.
 - 3 provinces is minimum: 5632 x 494, 749, 805
-
+- At least 1 Sea province must exist
+- Max province limit is 6000~
 
 # Exceptions (At address)
 0x00A12313
 - CTD due to province size
 
-0x00A1473E
-- 
+0x00FBC7D4
+- Below max_provinces = 15
+- max_provinces exceeds listed definition ids
+- Issue with province boundary (1 pixel provinces next to one another)
+- No sea_starts provinces
+- More than 6000 provinces

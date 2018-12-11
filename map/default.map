@@ -1,10 +1,10 @@
 width = 5632
 height = 2048
 
-max_provinces = 21
+max_provinces = 200
 
 sea_starts = { 
-	1 2 3 
+    1 2 3
 }
 
 only_used_for_random = {
